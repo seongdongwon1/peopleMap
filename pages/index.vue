@@ -1,9 +1,14 @@
 <template>
-  <Tutorial />
+  <!--  <MainMap />-->
+  <pratice />
 </template>
 
 <script>
 export default {
-  name: 'IndexPage'
+    name: 'IndexPage'
 }
 </script>
+
+<style scoped>
+
+</style>
