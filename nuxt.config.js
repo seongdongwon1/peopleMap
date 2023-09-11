@@ -15,6 +15,7 @@ export default {
             { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
         ],
         script: [
+            // { src: '//dapi.kakao.com/v2/maps/sdk.js?autoload=false&appkey=cb2a3115c41241e5e85df10a385b544c' }
         ]
     },
 
@@ -23,11 +24,10 @@ export default {
     ],
 
     env: {
-        VWORLD_API: 'BABD4A04-76D4-3A9D-8075-846E6DDD43BC'
     },
     // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
     plugins: [
-
+        { src: '~/plugins/axios.js' }
     ],
 
     // Auto import components: https://go.nuxtjs.dev/config-components
@@ -42,9 +42,9 @@ export default {
     // Modules: https://go.nuxtjs.dev/config-modules
     modules: [
     // https://go.nuxtjs.dev/bootstrap
-        'bootstrap-vue/nuxt'
+        'bootstrap-vue/nuxt',
         // https://go.nuxtjs.dev/axios
-        // '@nuxtjs/axios'
+        '@nuxtjs/axios'
     ],
 
     // Axios module configuration: https://go.nuxtjs.dev/config-axios

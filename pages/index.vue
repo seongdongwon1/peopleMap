@@ -1,6 +1,7 @@
 <template>
   <!--  <MainMap />-->
-  <pratice />
+  <!--  <pratice />-->
+  <people-map />
 </template>
 
 <script>
